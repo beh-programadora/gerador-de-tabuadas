@@ -1,0 +1,8 @@
+
+# leitura do número
+numero = int(input("digite um número para gerar a tabela de multiplicação: "))
+
+# loop para gerar a tabela de multiplicação
+for i in range(1,11):
+    print(f"{numero} x {i} = {numero * i}")
+
