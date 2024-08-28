@@ -1,0 +1,35 @@
+
+### .gitignore
+
+```gitignore
+# Ignorar arquivos Python compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar diretórios de cache
+__pycache__/
+Enunciado do Projeto
+# Enunciado do Projeto: Gerador de Tabela de Multiplicação
+
+## Objetivo
+
+Desenvolver um script em Python que gere e exiba a tabela de multiplicação para um número fornecido pelo usuário. O script deve calcular o produto do número inserido com os números de 1 a 10 e exibir o resultado de forma formatada.
+
+## Requisitos
+
+1. O script deve solicitar ao usuário a entrada de um número inteiro.
+2. Utilizar um loop `for` para gerar a tabela de multiplicação desse número, do 1 ao 10.
+3. A tabela deve ser exibida na forma: "número x i = resultado", onde `número` é o número fornecido pelo usuário e `i` varia de 1 a 10.
+
+## Passos para Implementação
+
+1. Crie um arquivo chamado `tabela_multiplicacao.py`.
+2. No arquivo, solicite ao usuário um número inteiro utilizando a função `input()`.
+3. Utilize um loop `for` para iterar de 1 a 10 e calcular o produto do número fornecido com cada valor de `i`.
+4. Exiba a tabela de multiplicação formatada usando a função `print()`.
+5. Salve e execute o script para verificar se a tabela de multiplicação está correta.
+
+## Exemplo de Saída Esperada
+
+Digite um número para gerar a tabela de multiplicação: 5 5 x 1 = 5 5 x 2 = 10 5 x 3 = 15 5 x 4 = 20 5 x 5 = 25 5 x 6 = 30 5 x 7 = 35 5 x 8 = 40 5 x 9 = 45 5 x 10 = 50
